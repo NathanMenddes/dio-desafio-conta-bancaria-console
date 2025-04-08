@@ -1,18 +1,23 @@
-## Getting Started
+## 💻 Sobre o Projeto
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um pequeno projeto Java desenvolvido como parte de um desafio de terminal proposto pelo **Bootcamp da DIO (Digital Innovation One)**. O objetivo do exercício é treinar a entrada de dados pelo console utilizando a classe `Scanner`, além de manipular diferentes tipos de variáveis.
 
-## Folder Structure
+O programa simula a criação de uma conta bancária no terminal. Ele solicita ao usuário as seguintes informações:
 
-The workspace contains two folders by default, where:
+- Nome do cliente
+- Número da conta
+- Número da agência
+- Saldo inicial
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Após coletar os dados, o programa imprime uma mensagem personalizada confirmando a criação da conta e os dados fornecidos pelo usuário.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 🛠️ Tecnologias utilizadas
+- Java (versão 11 ou superior)
+- VsCode
+- Terminal / Console
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 📌 Observações
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+No código, é utilizada a classe `Scanner` para capturar entradas do usuário. Por uma questão de simplicidade, cada leitura (`nextLine`, `nextInt`, `nextDouble`) foi feita instanciando um novo objeto `Scanner`, mas o ideal seria utilizar **uma única instância** durante todo o programa.
+ 
+ ---
